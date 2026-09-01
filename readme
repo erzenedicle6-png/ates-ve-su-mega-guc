@@ -1,0 +1,40 @@
+# Ateş ve Su: Nihai Strateji Savaşı 🔥❄️
+
+HTML5 Canvas, JavaScript ve CSS kullanılarak geliştirilmiş, iki oyunculu, mobil uyumlu ve dokunmatik kontrollü stratejik platform oyunudur. 
+
+## 🎮 Oyunun Konsepti ve Amacı
+
+Karakterlerin klasik element tabanlı etkileşimlerini rekabetçi bir platform deneyimiyle birleştiren bu oyunda; **Ateş (🔴)** ve **Su (🔵)** karakterlerini yöneterek parkuru tırmanmalı, güçlendiricileri toplamalı ve en tepedeki **Kupa'ya (🏆)** ilk ulaşan taraf olmalısınız.
+
+## ✨ Öne Çıkan Özellikler
+
+- **İki Kişilik Mobil Deneyim:** Ekranın sol üst ve sağ alt köşelerine konumlandırılmış özel şeffaf kontrol butonlarıyla aynı cihaz üzerinden iki kişi oynanabilir.
+- **Dinamik Platformlar ve Tehlikeler:** Farklı yüksekliklerde parkur katları, tehlikeli lav ve buz göletleri.
+- **Mega Güçlendirici (Power-Up):** Parkurdaki "M" güçlendiricilerini toplayarak karakterinizi büyütebilir, atış hızınızı ve gücünüzü geçici olarak artırabilirsiniz.
+- **Süre ve Skor Yönetimi:** 60 saniyelik geri sayım sayacı, rakipten puan kazanma (+5 puan) ve ceza alma (-10 puan) mekanizmaları.
+- **Tamamen Responsive:** `window.innerHeight` ve `innerWidth` uyumlu, mobil tarayıcılara tam adapte olabilen Canvas mimarisi.
+
+## 🛠️ Kullanılan Teknolojiler
+
+- **HTML5 Canvas:** Yüksek performanslı 2D oyun grafikleri, nesne renderlama ve fizik döngüleri (`requestAnimationFrame`).
+- **CSS3:** Sabit ekran yerleşimi, esnek arayüz (`flexbox`), şeffaf buton tasarımları ve dokunma optimizasyonları (`touch-action: none`).
+- **JavaScript (ES6+):** Sınıf tabanlı nesne yönelimli programlama (`Player` sınıfı), çarpışma algoritmaları, zamanlayıcılar ve dokunma/fare olay yöneticileri.
+
+## 🚀 Nasıl Çalıştırılır?
+
+Proje tamamen istemci (frontend) tarafında çalıştığından ekstra bir sunucu veya kurulum gerektirmez:
+
+1. Kodu bilgisayarınıza `index.html` adıyla kaydedin.
+2. Dosyaya çift tıklayarak herhangi bir modern web tarayıcısında (Chrome, Safari, Firefox vb.) açın.
+3. Kontrolleri kullanarak oynamaya başlayın!
+
+## 🕹️ Kontroller
+
+- **🔥 Ateş Karakteri (Sol Üst Köşe):**
+  - `←` / `→`: Sağa ve sola hareket
+  - `↑`: Zıplama (Çift zıplama desteği mevcut)
+  - `🔥`: Ateş topu fırlatma
+- **❄️ Su Karakteri (Sağ Alt Köşe):**
+  - `←` / `→`: Sağa ve sola hareket
+  - `↑`: Zıplama (Çift zıplama desteği mevcut)
+  - `❄️`: Buz topu fırlatma
